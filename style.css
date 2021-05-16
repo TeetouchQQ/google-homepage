@@ -7,9 +7,10 @@ ul{
 li{
     display: inline;
     text-align: right;
-    
+    text-align: center;
 }
 .logo {
+    
     position: fixed;
     top: 25%;
     left: 50%;
@@ -33,20 +34,79 @@ li{
     width: 100%;
     left:0px;
     bottom:0px;
-    color:aliceblue;
-    background-color: #ccc;
+    color:gray;
+    background-color: #f2f2f2;
+    padding: 13px;
   }
  .big_Button{
   position: fixed;
   top:45%;
-  left:43%
+  left:41%
+
  }
  .button1{
-  padding: 10px;
+  padding: 20px;
+  border: none;
  }
  .button2{
   margin-left: 10px;
-  padding: 10px;
+  padding: 20px;
+  border: None;
 
  }
-  
+ .footer_infor{
+  font-size: 19px;
+  display: inline;
+  padding-left: 20px;
+  text-align: left;
+ }
+ .column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer_infor2{
+  font-size: 19px;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 10px;
+ }
+ .left {
+  width: 83%;
+}
+
+.right {
+  width: 17%;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+.SignIn_button{
+  margin-left: 10px;
+  background-color:dodgerblue; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+
+}
